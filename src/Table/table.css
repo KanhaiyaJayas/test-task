@@ -1,0 +1,34 @@
+thead > tr > th {
+  background-color: #bbe3bc;
+  border: 2px solid black;
+}
+
+.dataTables_filter {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+#example_length {
+  width: 20%;
+}
+
+.dataTables_wrapper no-footer {
+  position: relative;
+}
+.dt-buttons {
+  position: absolute !important;
+  left: 13%;
+}
+.dataTables_length {
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+}
+#example_wrapper {
+    margin-top: 1%;
+}
+
+#example {
+    padding-top: 1% !important;
+}

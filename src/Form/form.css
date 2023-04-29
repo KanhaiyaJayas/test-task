@@ -1,0 +1,189 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.form-container {
+  background-color: #f5f5f5;
+  padding: 20px 40px 20px 20px;
+  margin-bottom: 5%
+}
+
+.title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-decoration: underline;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+input {
+  height: 40px;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  border-radius: 5px;
+}
+.required {
+  color: #fd2f2c;
+}
+
+.detail-input-box {
+  display: flex;
+  align-items: center;
+}
+
+.left-box {
+  width: 40%;
+}
+.right-box {
+  width: 60%;
+}
+
+.top-row > :nth-child(2) {
+  flex-grow: 1;
+}
+
+.right-flex-grow > :nth-child(2) {
+  flex-grow: 0.6;
+}
+
+.right-flex-grow > :nth-child(4) {
+  flex-grow: 0.4;
+  height: 40px;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  border-radius: 5px;
+}
+
+label {
+  margin: 0 2%;
+}
+
+::-webkit-input-placeholder {
+  padding-left: 1%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.bottom-row {
+  margin-top: 2%;
+}
+.bottom-row > .left-box > :nth-child(2) {
+  flex-grow: 0.6;
+}
+
+.bottom-row > .right-box > :nth-child(2) {
+  flex-grow: 0.3;
+  height: 40px;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  border-radius: 5px;
+}
+
+.bottom-row > .right-box > :nth-child(3) {
+  flex-grow: 0.9;
+  height: 40px;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  border-radius: 5px;
+  margin-left: 3%;
+}
+
+.contact-details-left > :nth-child(2) {
+  height: 40px;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  border-radius: 5px;
+  flex-grow: 0.4;
+  margin-right: 3%;
+}
+
+.contact-details-left > :nth-child(3) {
+  flex-grow: 0.5;
+}
+
+.contact-details-right > :nth-child(2) {
+  flex-grow: 1;
+}
+
+.contact-details-right > :nth-child(4) {
+  flex-grow: 0.6;
+}
+
+.address-details-left > :nth-child(2) {
+  width: 100%;
+}
+
+.address-details-right > :nth-child(2) {
+  height: 40px;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  border-radius: 5px;
+  width: 45%;
+}
+
+.address-details-right > :nth-child(4) {
+  height: 40px;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  border-radius: 5px;
+  width: 45%;
+}
+.css-1fdsijx-ValueContainer {
+  height: 40px;
+}
+.ss-13cymwt-control {
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  border-radius: 5px;
+}
+
+.Address-bottom-box {
+  margin-top: 2%;
+}
+
+.Address-bottom-box > .address-details-right > input {
+  width: 30%;
+}
+
+.Other-Detail > select {
+  height: 40px;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  border-radius: 5px;
+}
+
+.Other-Detail > :nth-child(2) {
+  width: 15%;
+}
+
+.Other-Detail > :nth-child(4) {
+  width: 15%;
+}
+.Other-Detail > :nth-child(6) {
+  width: 15%;
+}
+
+.Other-Detail > :nth-child(8) {
+  width: 5%;
+} 
+
+.form-btn  {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-btn > :nth-child(1) {
+  border: 1px solid red;
+}
+
+.form-btn > :nth-child(2) {
+  background-color: green;
+  color: #fff;
+  margin-left: 2%;
+}
+
+.error {
+  color: #fd2f2c;
+  display: block;
+  position: absolute;
+}
