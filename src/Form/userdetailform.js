@@ -210,7 +210,7 @@ export default function PersonalDetail() {
               <div style={{ position: "relative" }}>
                 <input
                   type="text"
-                  placeholder="MM/DD/YYYY"
+                  placeholder="MM/DD/YYYY or Age in Years"
                   id="dob"
                   {...register("age")}
                   style={{ width: "100%" }}
